@@ -8,7 +8,7 @@ import "./App.css";
 import "./index.css";
 import UserLogin from "./signin";
 import Register from "./signup";
-// import Signout from "./signout";
+import Signout from "./signout";
 
 function Main() {
   return (
@@ -23,7 +23,7 @@ function Main() {
           </div>
         </Nav>
         <Nav className="ml-auto">
-          {/* <Signout /> */}
+          <Signout />
         </Nav>
       </Navbar>
       <div className="container">
