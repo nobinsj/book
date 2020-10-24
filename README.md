@@ -1,5 +1,7 @@
 
 
-## `npm install`
+### `npm install`
+
+### `cd book`
 
 ### `npm start`
