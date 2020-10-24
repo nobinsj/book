@@ -33,8 +33,8 @@ function UserLogin() {
         Sign In
       </Link>
       <Modal isOpen={modal2} toggle={toggle2}>
-        <ModalHeader toggle={toggle2} className="bg-secondary text-white">Sign In</ModalHeader>
-        <ModalBody className="bg-dark text-white">
+        <ModalHeader toggle={toggle2} className="bg-dark text-white">Sign In</ModalHeader>
+        <ModalBody>
           <InputGroup.Prepend>
             <label className="col-sm-4">
               <b>USERNAME</b>
