@@ -1,12 +1,13 @@
 import React from "react";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Book from "./book";
+import Main from "./main";
 
 function App() {
   return (
-    <div>
-        <Book />
+    <div className="App">
+      <Main />
     </div>
   );
 }
