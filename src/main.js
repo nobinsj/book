@@ -7,7 +7,7 @@ import Book from "./book";
 import "./App.css";
 import "./index.css";
 import UserLogin from "./signin";
-// import Register from "./signup";
+import Register from "./signup";
 // import Signout from "./signout";
 
 function Main() {
@@ -19,7 +19,7 @@ function Main() {
             <UserLogin />
           </div>
           <div>
-            {/* <Register /> */}
+            <Register />
           </div>
         </Nav>
         <Nav className="ml-auto">
