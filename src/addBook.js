@@ -4,7 +4,7 @@ function Addbook(value, token) {
   const tok = sessionStorage.getItem("key");
   if (tok == null) {
     return (
-      alert("You must Login",window.location.reload(false))
+      alert("You must Login")
       
     )
   } else {

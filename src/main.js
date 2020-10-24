@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { CardDeck, Card, Navbar, Nav } from "react-bootstrap";
 import { CardHeader } from "reactstrap";
 import Book from "./book";
-// import View from "./viewBook";
+import View from "./viewBook";
 import "./App.css";
 import "./index.css";
 import UserLogin from "./signin";
@@ -40,7 +40,7 @@ function Main() {
               <h4 className="text-center">YOUR BOOKS</h4>{" "}
             </CardHeader>
             <Card.Body>
-              {/* <View /> */}
+              <View />
             </Card.Body>
           </Card>
         </div>
